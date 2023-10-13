@@ -1,2 +1,2 @@
-# ejs-example
-ejs-example
+# EJS-Example
+EJS Web Example
