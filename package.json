@@ -1,6 +1,6 @@
 {
-  "name": "EJS",
-  "version": "0.0.1",
+  "name": "EJS express",
+  "version": "0.0.2",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

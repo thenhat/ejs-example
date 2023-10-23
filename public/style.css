@@ -41,12 +41,12 @@ color:#eeeeee;
   opacity:0.8;
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .footer-dark .itemnot(.social) {
     text-align:center;
     padding-bottom:20px;
   }
-}
+} */
 
 .footer-dark .item.text {
   margin-bottom:36px;

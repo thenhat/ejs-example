@@ -1,6 +1,6 @@
 const express = require("express");
 
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 const app = express();
 const http = require("http");
 const server = http.createServer(app);
@@ -25,21 +25,21 @@ app.set("src", "path/to/views");
 //Anasayfa
 app.get("/", (req, res, err) => {
 res.render(__dirname + "/src/pages/index.ejs");
-console.log("Sayfaya giriş yapıldı");
+console.log("Render home");
 });
 //Hakkımızda sayfası
 app.get("/hakkimizda", (req, res, err) => {
 res.render(__dirname + "/src/pages/hakkimizda.ejs");
-console.log("Sayfaya giriş yapıldı");
+console.log("render page");
 });
 app.get("/about", (req, res, err) => {
 res.render(__dirname + "/src/pages/hakkimizda.ejs");
-console.log("Sayfaya giriş yapıldı");
+console.log("about page");
 });
 //Hata sayfası
 app.get("*", (req,res)=>{
 res.render(__dirname + "/src/pages/error.ejs");  
 });
 server.listen(port, () => {
-console.log(port, " Portu dinleniyor");
+console.log(port, "error page");
 });
